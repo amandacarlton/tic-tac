@@ -1,0 +1,50 @@
+.row{
+  background-color: green;
+
+
+}
+
+.cell{
+  width: 350px;
+  float: left;
+
+  height: 200px;
+}
+
+#tl{
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#tm{
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#tr{
+  border-bottom: 1px solid black;
+}
+
+#ml{
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#mr{
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+
+#bl{
+ border-right: 1px solid black;
+}
+
+#bm{
+  border-top: 1px solid black;
+   border-right: 1px solid black;
+}
+
+.cell:hover{
+  background-color: yellow;
+  cursor: pointer;
+}
