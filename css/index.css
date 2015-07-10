@@ -5,10 +5,10 @@
 }
 
 .cell{
-  width: 350px;
+  width: 33%;
   float: left;
-
   height: 200px;
+
 }
 
 #tl{
