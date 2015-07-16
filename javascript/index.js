@@ -46,7 +46,7 @@ var logger = function(index) {
 
   var notEmpty = 0;
   for(var j=0; j<winningCombo.length; j++){
-    if(cells[winningCombo[j][0]].innerHTML != "" && cells[winningCombo[j][1]].innerHTML !="" && cells[winningCombo[j][2]].innerHTML != ""){
+    if(cells[winningCombo[j][0]].innerHTML != "" && cells[winningCombo[j][1]].innerHTML != "" && cells[winningCombo[j][2]].innerHTML != ""){
       if(cells[winningCombo[j][0]].innerHTML===cells[winningCombo[j][1]].innerHTML && cells[winningCombo[j][0]].innerHTML===cells[winningCombo[j][2]].innerHTML) {
         var winner = cells[winningCombo[j][0]].innerHTML;
         alert(winner + "'s" + " Won");
@@ -56,7 +56,7 @@ var logger = function(index) {
       else {
         notEmpty++;
         if(notEmpty === 8) {
-          alert("Draw")
+          alert("Draw");
           clearBoard();
           break;
         }

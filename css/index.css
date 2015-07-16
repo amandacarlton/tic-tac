@@ -4,44 +4,72 @@
 
 }
 
+.title{
+  align-self: center;
+  margin: auto;
+  align-content: center;
+  text-align: center;
+  font-size: 50px;
+}
+
+.main{
+
+ width: 50%;
+ height:50%;
+ overflow: auto;
+ align-content: center;
+ align-self: center;
+ margin: auto;
+ margin-top: 5%;
+}
+
 .cell{
-  width: 33%;
+  width: 25%;
   float: left;
-  height: 200px;
+  height: 150px;
+  font-size: 100px;
+  text-align: center;
 
 }
 
 #tl{
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
+  margin-top: 20px;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
 }
 
 #tm{
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
+  margin-top: 20px;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
 }
 
 #tr{
-  border-bottom: 1px solid black;
+  margin-top: 20px;
+  border-bottom: 3px solid black;
 }
 
 #ml{
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+#mm{
+  border-bottom: 3px solid black;
 }
 
 #mr{
-  border-bottom: 1px solid black;
-  border-left: 1px solid black;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
 }
 
 #bl{
- border-right: 1px solid black;
+ border-right: 3px solid black;
 }
 
 #bm{
-  border-top: 1px solid black;
-   border-right: 1px solid black;
+
+   border-right: 3px solid black;
 }
 
 .cell:hover{
